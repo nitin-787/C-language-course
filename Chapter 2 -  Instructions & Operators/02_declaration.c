@@ -4,13 +4,13 @@
 
 int main(){
     
-    // int a=10, b = 25;
+    int a = 10, b = 25, c = 15;
 
-    // printf("adding the value of a and b %d\n", a+b);
-    // printf("adding the value of a and b %d\n", a-b);
-    // printf("adding the value of a and b %d\n", a*b);
-    // printf("adding the value of a and b %d\n", a/b);
-    // printf("modulas the value  %d\n", 10%2);
+    printf("adding the value of a and b %d\n", a+b);
+    printf("adding the value of a and b %d\n", a-b);
+    printf("adding the value of a and b %d\n", a*b);
+    printf("adding the value of a and b %d\n", a/b);
+    printf("modulas the value  %d\n", 10%3);
     
 
     // What is mean by expression?

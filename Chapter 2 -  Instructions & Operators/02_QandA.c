@@ -4,7 +4,7 @@ int main(){
 
     // Q1: Which of the following is invalid in c?
 
-    // int a; b=a; --> Invalid
+    // int a;  b=a; --> Invalid
     // int v = 3^3; ---> Invalid
     // printf("%d", v);
 
