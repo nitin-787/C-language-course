@@ -1,36 +1,35 @@
-// // C Program to check whether a number is even or odd
-// #include<stdio.h>
+#include<stdio.h>
 
-// int main(){
-//     int a, b;
-//     printf("Enter a number\n");
-//     scanf("%d", &a);
+int main(){
+    // int a, b;
+    
+    // printf("Enter the number: ");
+    // scanf("%d", &a);
 
-//     if(a%2==0){
-//         printf("%d is even\n", a);
-//     }
-//     else{
-//         printf("%d is odd\n", a);
-//     }
-//     return 0;
-// }
+    // if (a % 2 == 0) {
+    //     //body
+    //     // it will only excecute when the condtion is true.
+    //     printf("%d number is even", a);
+    // } else {
+    //     // it will only excecute when the condtion is !true.
+    //     printf("%d number is odd", a);
 
-#include <stdio.h>
+    // }
 
-int main()
-{
     int money;
-    printf("enter the money: ");
+
+    printf("Enter your money: ");
     scanf("%d", &money);
-    if (money < 50){
-        printf("Bring me a game\n");
-    }
-    else if (money > 50){
-        printf("car");
-    }
-    else(money == 50);
+
+    if (money == 100)
     {
-        printf("keep your money");
+        printf("Buy me coffe");
+    } else if (money == 200) {
+        printf("Buy me coffe & keep 100 rupee");
+
+    } else {
+        printf("else");
     }
+    
     return 0;
 }

@@ -2,21 +2,36 @@
 
 int main(){
     int age;
-    int vipPass = 0;
-    // vipPass = 1;
+    int money;
 
-    printf("Enter your age\n");
-    scanf("%d", &age); 
+    printf("Enter your age: ");
+    scanf("%d", &age);
 
-    // if (age <= 70 && age>=18)
-    if ((age <= 70 && age>=18) || (vipPass==1))
+    
+
+    if (age >= 18 && age <= 80)
     {
-        printf("You are above 18 and below 70, you can drive\n");
+        printf("Yes, you can drive");
+    } else if (age >= 16) {
+        printf("do you have learning license?");
     }
-    else
-    {
-        printf("You cannot drive\n");
+    else if (age <= 15) {
+
+        printf("do you have sufficient money? ");
+        scanf("%d", &money);
+
+        if (money == 500)
+        {
+            printf("Thik hai 500 de do!");
+        } else {
+            printf("give me you parent's phone number or challen");
     }
-   
+        
+    }
+     else {
+        printf("no, you cannot drive");
+    }
+    
+
     return 0;
 }
